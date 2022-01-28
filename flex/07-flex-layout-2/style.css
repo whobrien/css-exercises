@@ -26,3 +26,48 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* Solution */
+
+.header, .footer, .container, .sidebar, .card, .box {
+  display: flex;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  padding: 16px;
+  align-items: center;
+}
+
+.sidebar {
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+.card {
+  height: auto;
+  width: 250px;
+  margin: 8px;
+  padding: 16px;
+}
+
+.box {
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style-type: none;
+  padding: 16px;
+}
+
+.footer {
+  justify-content: center;
+}
+
+a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  /*padding: 16px;*/
+}
